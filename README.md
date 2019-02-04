@@ -258,3 +258,167 @@ IPv6
  
 Explanation 1
 We only have n = 1 value to check. Because ip0 = "2001:0db8:0000:0000:0000:ff00:0042:8329" is a valid IPv6 address, we return IPv6 in index 0 of our return array.
+
+
+
+
+
+Microsoft Blockchain - Virtual Workshop
+from Monday, February 4, 2019, to Tuesday, February 5, 2019 | 7:30 pm India Time (GMT+05:30) | 2 hours  
+
+Meeting number: 579 219 039
+
+Meeting password: Tcs@123
+
+To join meeting: Click Here
+
+OR Copy and Paste below URL to your Web Browser:
+
+https://tcs2.webex.com/tcs2/j.php?MTID=m94c60ecb48e08b3766df71086c9204c9
+
+Bridge Details:-
+Participant Pin 	 312 846 6372#
+Moderator Pin 	 
+
+Features for Moderator
+  
+•	*96 Mute participant line 
+•	*97 to Un-Mute participant line 
+•	 #0 Operator Assistance 
+Features for Participants
+  
+•	#0 Operator Assistance  
+•	*6 Mute/Un-Mute 
+•	
+Dial in Access Numbers- 
+•	
+INTERNATIONAL TOLL FREE AND LOCAL PHONE NUMBERS
+
+   Canada, Toronto  :	+1 647 426 0816
+   Argentina, Buenos Aires  :	+54 11 525 28751
+   Argentina (toll free)  :	0800 444 7271
+   Australia, Sydney  :	+61 (0)2 9037 1689
+   Australia (toll free)  :	1800 986 271
+   Austria (toll free)  :	0800 297 242
+   Bahrain, Manama  :	+973 1619 8600
+   Bahrain (toll free)  :	8000 4776
+   Belgium, Brussels  :	+32 (0)2 894 8329
+   Belgium (toll free)  :	0800 77524
+   Bolivia (toll free)  :	800 100 946
+   Brazil, Rio de Janeiro  :	+55 21 2730 6909
+   Brazil (toll free)  :	0800 892 2388
+   Brunei (toll free)  :	801 4053
+   Bulgaria (toll free)  :	00800 117 1199
+   Canada (toll free)  :	1855 655 7062
+   Chile, Santiago  :	+56 (0)2 599 4584
+   Chile (toll free)  :	123 0020 9249
+   China (national)  :	+86 400 120 1131
+   China (national)  :	10800 140 1711
+   China (national)  :	10800 714 1677
+   Colombia (toll free)  :	01800 518 1750
+   Croatia (toll free)  :	0800 777 909
+   Cyprus (toll free)  :	800 96479
+   Czech Republic (toll free)  :	800 701 359
+   Denmark (toll free)  :	80 88 68 59
+   Dominican Republic (toll free)  :	1800 751 4901
+   Egypt (toll free)  :	0800 000 0310
+   Estonia (toll free)  :	8000 100 320
+   Finland, Helsinki  :	+358 (0)9 3158 2478
+   France, Paris  :	+33 (0)1 70 91 86 41
+   France (toll free)  :	0800 919 261
+   Germany, Frankfurt  :	+49 (0)69 25511 4419
+   Germany (toll free)  :	0800 187 3551
+   Greece (toll free)  :	00800 161 2203 7271
+   Hong Kong  :	+852 5808 1811
+   Hong Kong (toll free)  :	800 905 994
+   Hungary (toll free)  :	068 001 9504
+   Iceland (toll free)  :	800 9378
+   India, Delhi  :	+91 (0)11 60003300
+   India, Noida -UP  :	+91 (0)120 6000330
+   India, Gurgaon  :	+91 (0)124 6000330
+   India, Pune  :	+91 (0)20 60003300
+   India, Mumbai  :	+91 (0)22 60003300
+   India, Kolkata  :	+91 (0)33 60003300
+   India, Hyderabad  :	+91 (0)40 60003300
+   India, Chennai  :	+91 (0)44 6000 8444
+   India, Cochin  :	+91 (0)484 6000330
+   India, Jamshedpur  :	+91 (0)657 6000330
+   India, Nagpur  :	+91 (0)712 6000330
+   India, Ahmedabad  :	+91 (0)79 60003300
+   India, Bangalore  :	+91 (0)80 60003300
+   India, Goa  :	+91 (0)832 6000330
+   India (toll free)  :	1800 266 3033
+   India (national)  :	1860 266 3033
+   Indonesia (toll free)  :	001 803 016 7271
+   Ireland, Dublin  :	+353 (0)1 5269719
+   Ireland (toll free)  :	1800 947 176
+   Israel, Tel Aviv  :	+972 (0)3763 0331
+   Israel (toll free)  :	1809 457 271
+   Italy, Rome  :	+39 06 4523 0462
+   Italy (toll free)  :	800 789 968
+   Japan, Tokyo  :	+81 (0)3 4580 8151
+   Japan (toll free)  :	0053 116 1200
+   Kenya (toll free)  :	0800 723 082
+   South Korea (toll free)  :	00798 14 207 9895
+   Latvia (toll free)  :	8000 4284
+   Lithuania (toll free)  :	8800 31669
+   Luxembourg (toll free)  :	800 26609
+   Malaysia (toll free)  :	1800 815 711
+   Mexico, Guadalajara  :	+52 33 4777 2035
+   Mexico, Mexico City  :	+52 554 777 2458
+   Mexico (toll free)  :	001 800 514 7271
+   Monaco (toll free)  :	800 93806
+   Netherlands, Amsterdam  :	+31 (0)20 798 9583
+   Netherlands (toll free)  :	0800 022 1398
+   New Zealand, Auckland  :	+64 (0)9 929 1897
+   New Zealand (toll free)  :	0800 452 563
+   Norway (toll free)  :	800 10222
+   Panama (toll free)  :	00800 226 7271
+   Peru, Lima  :	+51 1 707 4301
+   Peru (toll free)  :	0800 54824
+   Philippines, Manila  :	+63 (0)2 626 3634
+   Philippines (toll free)  :	1800 1110 1234
+   Poland (toll free)  :	00 800 112 4310
+   Portugal (toll free)  :	800 827 735
+   Puerto Rico (toll free)  :	1 855 449 7271
+   Romania, Bucharest  :	+40 (0)21 529 1352
+   Romania (toll free)  :	0800 895 806
+   Russia (toll free)  :	810 800 2104 2012
+   Saudi Arabia (toll free)  :	800 814 1487
+   Singapore  :	+65 3158 0801
+   Singapore (toll free)  :	800 101 2586
+   Slovakia (toll free)  :	0800 606 538
+   Slovenia (toll free)  :	0800 80916
+   South Africa, Johannesburg  :	+27 (0)11 019 7054
+   South Africa (toll free)  :	0800 983 944
+   Spain (toll free)  :	900 937 908
+   Sri Lanka (toll free)  :	+94 788 155 806
+   Sweden (toll free)  :	020 792 092
+   Switzerland, Zurich  :	+41 (0)43 456 9557
+   Switzerland (toll free)  :	0800 897 614
+   Taiwan (toll free)  :	00 801 127 311
+   Thailand (toll free)  :	001 800 156 203 7271
+   Turkey (toll free)  :	00800 142 037 271
+   UAE (toll free)  :	8000 3570 2302
+   UK, Manchester  :	+44 (0)161 250 8129
+   UK, London  :	+44 (0)20 3478 5112
+   UK (toll free)  :	8000 163 006
+   USA, Seattle  :	+1 206 826 7485
+   USA, Detroit  :	+1 24 8856 1541
+   USA, San Francisco  :	+1 415 358 0139
+   USA, Los Angeles  :	+1 562 3756 542
+   USA,Washington  :	+1 571 255 6133
+   USA, Phoenix  :	+1 602 666 6001
+   USA, New York  :	+1 631 267 4851
+   USA, Buffalo  :	+1 716 242 1666
+   USA, Denver  :	+1 720 386 9998
+   USA, Miami  :	+1 786 219 3762
+   USA, Texas, Houston  :	+1 832 240 2009
+   USA, Boston  :	+1 857 207 3825
+   USA /Canada (toll free)  :	1877 340 9263
+   Uruguay (toll free)  :	000 4019 0514
+   Venezuela (toll free)  :	0800 100 6018
+   Vietnam (toll free)  :	1800 4826
+
+
+
