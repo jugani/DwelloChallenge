@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class FriendshipGame {
     public static void main(String[] args) throws IOException {
@@ -12,16 +14,40 @@ public class FriendshipGame {
         String inputarray[] = nodesandEdges.split(" ");
         int friend_nodes = Integer.valueOf(inputarray[0]);
         int friens_edges = Integer.valueOf(inputarray[1]);
-        HashMap <Integer, Integer[]> tokenMap = new HashMap<>();
+        HashMap <Integer, Set> tokenMap = new HashMap<>();
         while (friens_edges != 0)
         {
             String tokenofFriendNodes = br.readLine();
             String inputTokenArr[] = tokenofFriendNodes.split(" ");
-            Integer nodearray[]= new Integer[]{Integer.valueOf(inputTokenArr[0]), Integer.valueOf(inputTokenArr[1])};
-            tokenMap.put(Integer.valueOf(inputTokenArr[2]), nodearray );
+         //   Integer tokersharedamong []= new Integer[100];
+            Integer key = Integer.valueOf(inputTokenArr[2]);
+            if(tokenMap.containsKey(key))
+            {
+                Set availableset = tokenMap.get(key);
+                availableset.add(inputTokenArr[0]);
+                availableset.add(inputTokenArr[1]);
+                tokenMap.put(key, availableset);
+            }else
+            {
+                Set set = new HashSet();
+                set.add(inputTokenArr[0]);
+                set.add(inputTokenArr[1]);
+                tokenMap.put(key, set);
+            }
+
+           friens_edges--;
+        }
+
+        for (Integer name: tokenMap.keySet()){
+
+            String key =name.toString();
+            String value = tokenMap.get(name).toString();
+            System.out.println(key + " " + value);
+
 
         }
 
     }
 }
+
 
