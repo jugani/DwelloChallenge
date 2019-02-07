@@ -8,46 +8,102 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class FriendshipGame {
+     static  HashMap<Integer, Set> tokenMap = new HashMap<>();
+     static HashMap< Friends, Integer> friendsCountMapping = new HashMap<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String nodesandEdges =br.readLine();
+        //read space separted inputs for edge and node
+        String nodesandEdges = br.readLine();
         String inputarray[] = nodesandEdges.split(" ");
         int friend_nodes = Integer.valueOf(inputarray[0]);
         int friens_edges = Integer.valueOf(inputarray[1]);
-        HashMap <Integer, Set> tokenMap = new HashMap<>();
-        while (friens_edges != 0)
-        {
+         // get the tokens and pair
+        while (friens_edges != 0) {
             String tokenofFriendNodes = br.readLine();
             String inputTokenArr[] = tokenofFriendNodes.split(" ");
-         //   Integer tokersharedamong []= new Integer[100];
+            //   Integer tokersharedamong []= new Integer[100];
+            //lets have the token value as the key for map
             Integer key = Integer.valueOf(inputTokenArr[2]);
-            if(tokenMap.containsKey(key))
-            {
+            if (tokenMap.containsKey(key)) {
                 Set availableset = tokenMap.get(key);
                 availableset.add(inputTokenArr[0]);
                 availableset.add(inputTokenArr[1]);
                 tokenMap.put(key, availableset);
-            }else
-            {
+            } else {
                 Set set = new HashSet();
                 set.add(inputTokenArr[0]);
                 set.add(inputTokenArr[1]);
                 tokenMap.put(key, set);
             }
 
-           friens_edges--;
+            friens_edges--;
         }
 
-        for (Integer name: tokenMap.keySet()){
 
-            String key =name.toString();
-            String value = tokenMap.get(name).toString();
-            System.out.println(key + " " + value);
-
-
-        }
-
+        minimalproduct(tokenMap);
     }
+
+        static void minimalproduct(HashMap<Integer, Set> tokenMap)
+                {
+
+                    for (Integer name : tokenMap.keySet()) {
+
+                        String key = name.toString();
+                        String value = tokenMap.get(name).toString();
+                         String[] arr = value.split(" ");
+                         HashMap< Friends, Integer> friendsCountMapping = new HashMap<>();
+                        for (int i=0;i<arr.length;i++) {
+                            for (int j=(i+1);j<arr.length;j++){
+                                Friends friends = new Friends();
+                                friends.setFriend_one(Integer.valueOf(arr[i]));
+                                friends.setFriend_two(Integer.valueOf(arr[i]));
+                                if(friendsCountMapping.containsKey(friends)){
+                                    Integer count =friendsCountMapping.get(friends);
+                                    System.out.println(count);
+                                    friendsCountMapping.put(friends, count++);
+
+                                }else{
+                                    friendsCountMapping.put(friends, Integer.valueOf(1));
+                                }
+                            }
+
+
+                        }
+                        System.out.println(key + " " + value);
+
+
+                    }
+
+
+
+
+                }
+
+
+
+
+
 }
 
 
+
+class Friends{
+    Integer friend_one;
+    Integer friend_two;
+
+    public void setFriend_one(Integer friend_one) {
+        this.friend_one = friend_one;
+    }
+
+    public void setFriend_two(Integer friend_two) {
+        this.friend_two = friend_two;
+    }
+
+    public Integer getFriend_one() {
+        return friend_one;
+    }
+
+    public Integer getFriend_two() {
+        return friend_two;
+    }
+}
