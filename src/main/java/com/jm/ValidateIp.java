@@ -26,12 +26,8 @@ public class ValidateIp {
             output_array[j] = checkIP(ip);
             j++;
         }
-        for (String opt : output_array
-                ) {
-            System.out.println(opt);
 
 
-        }
     }
 
     public static String checkIP(String ip) throws UnknownHostException {
@@ -41,7 +37,6 @@ public class ValidateIp {
 
                 return "IPV4";
             } else if (Inet6Address.getByName(ip).getHostAddress().equals(ip)) {
-                //not working for valid ipv6 :(
                 return "IPV6";
             } else {
 
@@ -51,11 +46,9 @@ public class ValidateIp {
 
         }catch (UnknownHostException EX)
         {
-            return "Neigther";
+            return "Neither";
         }
-//        finally {
-//            System.out.println("hello" + Inet6Address.getByName(ip).getHostAddress());
-//        }
+
     }
 }
 
